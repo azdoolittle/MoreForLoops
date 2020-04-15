@@ -79,9 +79,7 @@ public class MoreForLoops {
         String reversed = "";
 
         for (int i = input.length() - 1; i >= 0; i --) {
-//            reversed = reversed.concat(String.valueOf(input.charAt(i)));
             reversed = reversed.concat(String.valueOf(input.charAt(i)));
-
         }
         System.out.println(input + "\n\t reversed is \n" + reversed);
     }
