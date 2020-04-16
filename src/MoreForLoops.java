@@ -45,7 +45,7 @@ public class MoreForLoops {
         isOdd();
         reverseString("This is an example.");
         findFactors(10);
-        computeFactorial(10);
+        computeFactorial(1000);
 
     }
 
@@ -93,10 +93,10 @@ public class MoreForLoops {
     }
 
     public static void computeFactorial(int num) {
-        int factorial = num;
+        long factorial = num;
         for (int i = num; i > 0; i --) {
             factorial *= (num - 1);
         }
-        System.out.println("Factorial of num: " + num);
+        System.out.println("Factorial of num: " + factorial);
     }
 }
